@@ -1,0 +1,313 @@
+:root {
+    --Gray-6: #F2F2F2;
+    --White: #fff;
+    --Dongker: #00324F;
+}
+
+/* Slider Welcome PSI */
+.Element-slide-psi .container .Element-text-heading h1 {
+    padding: 100px 0 16px 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+/* Content Slide */
+.Element-content-slider {
+    padding: 20px 30px;
+    min-height: 237px;
+    background: var(--Gray-6);
+}
+
+.Element-content-slider .btn {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 370px;
+    cursor: pointer;
+    max-width: 1700px;
+    border: none;
+}
+
+.responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: flex-start;
+}
+
+.responsive-container-block.bg {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    max-width: 1700px;
+}
+
+.text-blk.title {
+    font-size: 46px;
+    line-height: 64px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.swiper-container {
+    width: 85%;
+    height: auto;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    opacity: 0.10;
+    height: fit-content;
+}
+
+.swiper-slide.swiper-slide-next {
+    opacity: 1;
+}
+
+.swiper-slide.swiper-slide-next .content .quotes {
+    color: rgb(3, 169, 244);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.responsive-container-block.content {
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 120px;
+    margin-left: 20px;
+}
+
+
+.text-blk.info {
+    max-width: 550px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text-blk.quotes {
+    position: absolute;
+    left: 20px;
+    font-size: 144px;
+    line-height: 32px;
+    top: 17px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+
+.container-block.swiper-button-prevs {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-block.swiper-button-nexts {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.swiper-slide img.review {
+    width: 130px;
+}
+
+.pagination-button {
+    width: 36px;
+    height: 36px;
+}
+
+.swiper-pagination {
+    min-height: auto;
+    position: relative;
+}
+
+.content {
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 120px;
+    margin-left: 20px;
+}
+
+
+/* Element-should-hiring */
+.Element-should-hiring {
+    padding: 40px 46px;
+}
+
+.Element-should-hiring .container .Element-text-heading-title h1 {
+    padding: 43px 0;
+    font-size: 48px;
+    color: var(--Dongker);
+    font-weight: 700;
+}
+
+.Element-should-hiring .container .Element-colaboration .row .col-9 h6 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+/* Sipol Component */
+.Element-sipol-component {
+    padding: 20px 0;
+    min-height: 824px;
+    background: var(--Gray-6);
+}
+
+.Element-sipol-component .container .Element-text-heading h1 {
+    font-size: 48px;
+    color: var(--Dongker);
+    font-weight: 700;
+}
+
+.Element-sipol-component .container .row {
+    padding: 54px 0;
+}
+
+.Element-sipol-component .container .row .col-4 .Element-card-component .icons img {
+    padding: 24px 14px;
+    background: var(--Dongker);
+}
+
+.Element-sipol-component .container .row .col-4 .Element-card-component .Element-card {
+    padding: 20px 15px;
+    margin: 10px 0;
+    background: var(--White);
+}
+
+.Element-sipol-component .container .row .col-8 .Element-content-component img {
+    width: 100%;
+}
+
+.Element-sipol-component .container .row .Element-button-items button {
+    padding: 10px 15px;
+    background: var(--Dongker);
+    color: var(--White);
+    border: none;
+}
+
+/* Available Job */
+.Element-available-job .container {
+    padding: 58px 0;
+}
+
+.Element-available-job .container .Element-text-heading h1 {
+    font-size: 48px;
+    color: var(--Dongker);
+    font-weight: 700;
+}
+
+.Element-available-job .container .Solid-bottom {
+    margin: auto;
+    width: 120px;
+    height: 10px;
+    border: 0.2px;
+    background: var(--Gray-6);
+
+}
+
+.Element-available-job .container .row {
+    padding: 87px 0 0 0;
+}
+
+.Element-available-job .container .row .nav-tabs {
+    margin: auto;
+    width: 70%;
+    border: 1px solid var(--Gray-6);
+    font-weight: 700;
+    color: var(--Dongker);
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.Element-available-job .container .row .nav-tabs:hover {
+    border: none;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+    color: var(--Dongker);
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background: var(--Dongker);
+    color: var(--White);
+    border-radius: 0px;
+    border: none;
+}
+
+/* Riview Component */
+.Element-review-component {
+    padding: 52px 0;
+}
+
+.Element-review-component .container .Element-slider-review h1 {
+    font-size: 48px;
+    color: var(--Dongker);
+    font-weight: 700;
+    padding: 25px 0;
+}
+
+.Element-review-component .container .Solid-bottom {
+    margin: auto;
+    width: 120px;
+    height: 10px;
+    border: 0.2px;
+    background: var(--Gray-6);
+}

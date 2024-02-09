@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSI Portal Jobs</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- Style Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/worker.css">
+    <!-- FontAwesome -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- Navigation Component -->
+    <div class="Element-navbar-component-items">
+        <nav class="navbar navbar-light navbar-expand-md">
+            <div class="container"><a class="navbar-brand" href="#">
+                    <img src="asset/LOGO.png" width="370" alt="">
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1"><span
+                        class="visually-hidden">Toggle navigation</span><span
+                        class="navbar-toggler-icon"></span></button>
+                <div id="navcol-1" class="collapse navbar-collapse">
+                    <div class="row ms-auto">
+                        <div class="col-12">
+                            <ul class="navbar-nav float-none float-md-end">
+                                <li class="nav-item"><a class="nav-link btn-items-w active"
+                                        href="worker.html">Worker</a></li>
+                                <li class="nav-item"><a class="nav-link" href="index.html">Employer</a></li>
+                                <li class="nav-item"><a class="nav-link btn-items-d" href="#">Daftar SIPOOL</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- #End -->
+    <!-- Slider Component -->
+    <div class="Element-Hero-slider-component-items">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="asset/Background.svg" class="d-block bg-light w-100" alt="...">
+                    <div class="carousel-caption ">
+                        <button class="btn btn-caption-action">How To Work</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="asset/Background.svg" class="d-block bg-light w-100" alt="...">
+                    <div class="carousel-caption ">
+                        <button class="btn btn-caption-action">How To Work</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="asset/Background.svg" class="d-block bg-light w-100" alt="...">
+                    <div class="carousel-caption ">
+                        <button class="btn btn-caption-action">How To Work</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- #End -->
+    <!-- Slide Welcome To PSI -->
+    <div class="Element-slide-psi">
+        <div class="container">
+            <div class="Element-text-heading">
+                <h1 class="text-center">Welcome to PSI Jobsite, your ultimate destination for career growth and
+                    international opportunities</h1>
+            </div>
+        </div>
+    </div>
+    <!-- #End -->
+    <!-- Slider Component -->
+    <div class="Element-content-slider">
+        <div class="container">
+            <div class="responsive-container-block bg">
+                <div class="btn">
+                    <div class="container-block swiper-button-prevs">
+                        <img class="image-block pagination-button"
+                            src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/t33.png">
+                    </div>
+                    <div class="container-block swiper-button-nexts">
+                        <img class="image-block pagination-button"
+                            src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/t32.png">
+                    </div>
+                </div>
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="responsive-container-block content">
+                                <p class="text-blk quotes">
+                                    “
+                                </p>
+                                <img class="profile-img"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors3.svg">
+                                <p class="text-blk info">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                                    pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                </p>
+                                <img class="image-block review"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/t82.jpg">
+                                <p class="text-blk name">
+                                    Jane Doe
+                                </p>
+                                <p class="text-blk desig">
+                                    CEO
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="responsive-container-block content">
+                                <p class="text-blk quotes">
+                                    “
+                                </p>
+                                <img class="profile-img image-block"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors3.svg">
+                                <p class="text-blk info">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                                    pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                </p>
+                                <img class="image-block review"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/t82.jpg">
+                                <p class="text-blk name">
+                                    Jane Doe
+                                </p>
+                                <p class="text-blk desig">
+                                    CEO
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="responsive-container-block content">
+                                <p class="text-blk quotes">
+                                    “
+                                </p>
+                                <img class="profile-img image-block"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors3.svg">
+                                <p class="text-blk info">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                                    pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                </p>
+                                <img class="image-block review"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/t82.jpg">
+                                <p class="text-blk name">
+                                    Jane Doe
+                                </p>
+                                <p class="text-blk desig">
+                                    CEO
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="responsive-container-block content">
+                                <p class="text-blk quotes">
+                                    “
+                                </p>
+                                <img class="profile-img image-block"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors3.svg">
+                                <p class="text-blk info">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                                    pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                </p>
+                                <img class="image-block review"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/t82.jpg">
+                                <p class="text-blk name">
+                                    Jane Doe
+                                </p>
+                                <p class="text-blk desig">
+                                    CEO
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="responsive-container-block content">
+                                <p class="text-blk quotes">
+                                    “
+                                </p>
+                                <img class="profile-img image-block"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors3.svg">
+                                <p class="text-blk info">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                                    pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                </p>
+                                <img class="image-block review"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/t82.jpg">
+                                <p class="text-blk name">
+                                    Jane Doe
+                                </p>
+                                <p class="text-blk desig">
+                                    CEO
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="responsive-container-block content">
+                                <p class="text-blk quotes">
+                                    “
+                                </p>
+                                <img class="profile-img image-block"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors3.svg">
+                                <p class="text-blk info">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                                    pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                </p>
+                                <img class="image-block review"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/t82.jpg">
+                                <p class="text-blk name">
+                                    Jane Doe
+                                </p>
+                                <p class="text-blk desig">
+                                    CEO
+                                </p>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide">
+                            <div class="responsive-container-block content">
+                                <p class="text-blk quotes">
+                                    “
+                                </p>
+                                <img class="profile-img"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourInstructors3.svg">
+                                <p class="text-blk info">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                                    pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                </p>
+                                <img class="image-block review"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/t82.jpg">
+                                <p class="text-blk name">
+                                    Jane Doe
+                                </p>
+                                <p class="text-blk desig">
+                                    CEO
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination container-block">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    <!-- #End -->
+    <!-- Should Hiring -->
+    <div class="Element-should-hiring">
+        <div class="container">
+            <div class="Element-text-heading-title">
+                <h1 class="text-center">WHY YOU SHOULD HIRING THROUGH OUR JOBSITE?</h1>
+            </div>
+            <div class="Element-progress-bar">
+                <img src="asset/image/Group 16.png" alt="">
+            </div>
+            <div class="Element-colaboration">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="asset/image/codicon_workspace-trusted.png" alt="">
+                    </div>
+                    <div class="col-9">
+                        <h6>We collaborate with reputable employers and companies, ensuring that our users connect with
+                            opportunities from organizations known for their credibility and commitment to employee
+                            satisfaction.</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #End -->
+    <!-- Sipol Component -->
+    <div class="Element-sipol-component">
+        <div class="container">
+            <div class="Element-text-heading">
+                <h1 class="text-center mt-3">SIPOOL</h1>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="Element-card-component ">
+                        
+                        <div class="Element-card d-flex justify-content-sm-beetwen">
+                            <div class="col-3">
+                                <div class="icons">
+                                    <img src="asset/icons/Vecktor(8).svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="title-heading">
+                                    <h2>Search Jobs</h2>
+                                    <p>The standard chunk of used below of those interested.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="Element-card d-flex justify-content-sm-beetwen">
+                            <div class="col-3">
+                                <div class="icons">
+                                    <img src="asset/icons/Vecktor(8).svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="title-heading">
+                                    <h2>Cv/Resume</h2>
+                                    <p>The standard chunk of used below of those interested.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="Element-card d-flex justify-content-sm-beetwen">
+                            <div class="col-3">
+                                <div class="icons">
+                                    <img src="asset/icons/Vecktor(8).svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="title-heading">
+                                    <h2>Create Account</h2>
+                                    <p>The standard chunk of used below of those interested.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="Element-card d-flex justify-content-sm-beetwen">
+                            <div class="col-3">
+                                <div class="icons">
+                                    <img src="asset/icons/Vecktor(8).svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="title-heading">
+                                    <h2>Apply Them</h2>
+                                    <p>The standard chunk of used below of those interested.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Element-button-items text-center">
+                            <button>Join Us</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="Element-content-component">
+                        <img src="asset/background/image 15.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #End -->
+    <!-- Available Job -->
+    <div class="Element-available-job">
+        <div class="container">
+            <div class="Element-text-heading">
+                <h1 class="text-center">CHOOSE OUR AVAILABLE JOB</h1>
+            </div>
+            <div class="Solid-bottom"></div>
+            <div class="row">
+                <div class="col">
+                    
+                    <ul class="nav nav-fill nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="fill-tab-0" data-bs-toggle="tab" href="#fill-tabpanel-0" role="tab" aria-controls="fill-tabpanel-0" aria-selected="true">LATEST JOBS</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="fill-tab-1" data-bs-toggle="tab" href="#fill-tabpanel-1" role="tab" aria-controls="fill-tabpanel-1" aria-selected="false">POPULAR COMPANY</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="fill-tab-2" data-bs-toggle="tab" href="#fill-tabpanel-2" role="tab" aria-controls="fill-tabpanel-2" aria-selected="false">TRENDING STARUP</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-5" id="tab-content">
+                        <div class="tab-pane active" id="fill-tabpanel-0" role="tabpanel" aria-labelledby="fill-tab-0">Tab 1 selected</div>
+                        <div class="tab-pane" id="fill-tabpanel-1" role="tabpanel" aria-labelledby="fill-tab-1">Tab Tab 2 selected</div>
+                        <div class="tab-pane" id="fill-tabpanel-2" role="tabpanel" aria-labelledby="fill-tab-2">Tab Tab 3 selected</div>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #End -->
+    <!-- Rivew Component-->
+    <div class="Element-review-component">
+        <div class="container">
+            <div class="Element-slider-review">
+                <h1 class="text-center">Review</h1>
+            </div>
+            <div class="Solid-bottom"></div>
+
+            <div class="responsive-container-block bg">
+                <div class="btn">
+                    <div class="container-block swiper-button-prevs">
+                        <img class="image-block pagination-button"
+                            src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/t33.png">
+                    </div>
+                    <div class="container-block swiper-button-nexts">
+                        <img class="image-block pagination-button"
+                            src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/t32.png">
+                    </div>
+                </div>
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="responsive-container-block content">
+                                <p class="text-blk quotes">
+                                    “
+                                </p>
+                                <p class="text-blk info">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                                    pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                </p>
+                                <img class="image-block review"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/t82.jpg">
+                                <p class="text-blk name">
+                                    Jane Doe
+                                </p>
+                                <p class="text-blk desig">
+                                    CEO
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="responsive-container-block content">
+                                <p class="text-blk quotes">
+                                    “
+                                </p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                                    pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                </p>
+                                <img class="image-block review"
+                                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/t82.jpg">
+                                <p class="text-blk name">
+                                    Jane Doe
+                                </p>
+                                <p class="text-blk desig">
+                                    CEO
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="responsive-container-block content">
+                                <p class="text-blk quotes">
+                                    “
+                                </p>
+                                <p class="text-blk info">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                                    pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                </p>
+                                <p class="text-blk name">
+                                    Jane Doe
+                                </p>
+                                <p class="text-blk desig">
+                                    CEO
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="responsive-container-block content">
+                                <p class="text-blk quotes">
+                                    “
+                                </p>
+                                <p class="text-blk info">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                                    pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                </p>
+                                <p class="text-blk name">
+                                    Jane Doe
+                                </p>
+                                <p class="text-blk desig">
+                                    CEO
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="responsive-container-block content">
+                                <p class="text-blk quotes">
+                                    “
+                                </p>
+                                <p class="text-blk info">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                                    pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                </p>
+                                <p class="text-blk name">
+                                    Jane Doe
+                                </p>
+                                <p class="text-blk desig">
+                                    CEO
+                                </p>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide">
+                            <div class="responsive-container-block content">
+                                <p class="text-blk quotes">
+                                    “
+                                </p>
+                                <p class="text-blk info">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                                    pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                                </p>
+                                <p class="text-blk name">
+                                    Jane Doe
+                                </p>
+                                <p class="text-blk desig">
+                                    CEO
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination container-block">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- #End -->
+    <!-- Footer Component -->
+    <div class="Footer-component-items">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="asset/logo/LOGO (1).png" width="350" alt="">
+                    <div class="Element-social-media d-flex">
+                        <div class="icons-social-md">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                        <div class="icons-social-md">
+                            <i class="fa-brands fa-square-whatsapp"></i>
+                        </div>
+                        <div class="icons-social-md">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="icons-social-md">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h6 class="fw-bold mb-4 text-white mt-3">Produk dan Layanan</h6>
+                    <p><a class="nav-link text-white" href="#">Worker</a></p>
+                    <p><a class="nav-link text-white" href="#">Employer</a></p>
+                </div>
+                <div class="col">
+                    <h6 class="fw-bold mb-4 text-white mt-3">Perusahaan</h6>
+                    <p><a class="nav-link text-white" href="#">Tentang Kami</a></p>
+                    <p><a class="nav-link text-white" href="#">Alamat Kami</a></p>
+                    <p><a class="nav-link text-white" href="#">FAQ</a></p>
+                    <p><a class="nav-link text-white" href="#">Galeri</a></p>
+                </div>
+                <div class="col">
+                    <h6 class="fw-bold mb-4 text-white mt-3">Lainnya</h6>
+                    <p><a class="nav-link text-white" href="#">Kebijakan Privasi</a></p>
+                    <p><a class="nav-link text-white" href="#">Syarat dan Ketentuan</a></p>
+                </div>
+                <div class="col">
+                    <h6 class="fw-bold mb-4 text-white mt-3">Informasi</h6>
+                    <p class="text-white">Butuh bantuan teknis, email kami di: </p>
+                    <p><a class="nav-link" href="#">perusahaan@psi.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #End -->
+    <!-- Javascript CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="js/index.js"></script>
+    <!-- #End-->
+</body>
+
+</html>

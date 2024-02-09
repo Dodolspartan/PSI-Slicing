@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+    --warning: #FFCE00;
+    --birudongker: #023A5B;
+    --text-btn: #fff;
+    --birulaut: #F3F6FD;
+    --orange: #F2994A;
+    --ungu: #5D5FEF;
+    --gray: #4F4F4F;
+    --gray-paraf: #BDBDBD;
+    --blue: #2F80ED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Component */
+.Element-navbar-component-items .row .col-12 .navbar-nav .btn-items-w {
+    padding: 10px 15px;
+    background: var(--warning);
+    border-radius: 30px;
+}
+
+.Element-navbar-component-items .row .col-12 .navbar-nav .btn-items-d {
+    padding: 10px 15px;
+    background: var(--birudongker);
+    color: var(--text-btn);
+    border-radius: 30px;
+}
+
+.Element-navbar-component-items .row .col-12 .navbar-nav .nav-item .nav-link {
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+}
+
+/* Slider Component */
+.Element-Hero-slider-component-items .carousel-caption {
+    bottom: 5.40rem;
+
+}
+
+.Element-Hero-slider-component-items .carousel-caption h1 {
+    font-weight: 700;
+    font-family: "MuseoModerno", sans-serif;
+    font-size: 97px;
+    line-height: 150px;
+}
+
+.Element-Hero-slider-component-items .carousel-caption small {
+    padding: 3px;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    background: var(--ungu);
+}
+
+.Element-Hero-slider-component-items .carousel-caption p {
+    color: var(--warning);
+    font-family: "Manrope", sans-serif;
+}
+
+.Element-Hero-slider-component-items .carousel-caption .btn-caption-action {
+    padding: 20px 50px;
+    border: 1px solid var(--warning);
+    font-family: "Manrope", sans-serif;
+    border-radius: 50px;
+    color: var(--warning);
+}
+
+/* Text Views Component */
+.Element-text-views-component {
+    display: flex;
+    height: 224px;
+    background: var(--birudongker);
+    justify-content: center;
+    align-items: center;
+}
+
+.Element-text-views-component .Element-text-heading h1 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+}
+
+.Element-text-views-component .Element-text-heading p {
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+}
+
+/* About Component */
+.Element-About-component-items {
+    padding: 113px 200px;
+}
+
+.Element-About-component-items .row .Element-heading-title-about h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.Element-About-component-items .col .Element-image-about img {
+    display: grid;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 132%;
+    left: 10px;
+}
+
+.Element-About-component-items .Element-button-items .btn {
+    padding: 20px 50px;
+    background: var(--warning);
+    border-radius: 50px;
+    font-weight: 700;
+    color: var(--birudongker);
+}
+
+/* Content Component */
+.Element-Content-component-items {
+    font-family: "Manrope", sans-serif;
+    padding: 56px 0;
+}
+
+.Element-Content-component-items .container .Element-title-content {
+    padding: 103px 48px;
+}
+
+.Element-Content-component-items .container .row .col-6 .Image-center-items {
+    display: grid;
+    left: -30px;
+}
+
+.Element-Content-component-items .row .col-6 h1 {
+    font-size: 64px;
+    font-weight: 800;
+    color: var(--gray);
+}
+
+.Element-Content-component-items .row .col-6 span {
+    padding: 10px 0;
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 16px;
+    color: var(--gray-paraf);
+}
+
+/* Job Component */
+.Element-Job-component-items {
+    padding: 0 200px;
+    font-family: "Manrope", sans-serif;
+}
+
+.Element-Job-component-items .Element-title-heading-jobs h1 {
+    font-size: 64px;
+    color: var(--birudongker);
+}
+
+.Element-Job-component-items .Element-title-heading-jobs span {
+    font-size: 20px;
+    color: var(--gray-paraf);
+}
+
+.Element-Job-component-items .Element-search-jobs-component {
+    display: flex;
+    justify-content: space-between;
+    background: var(--birulaut);
+    padding: 22px 20px;
+}
+
+.has-search .form-control {
+    height: 55px;
+    padding-left: 2.775rem;
+}
+
+.Element-Job-component-items .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    padding: 8px 0;
+    display: block;
+    width: 3.475rem;
+    height: 5.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: var(--birudongker);
+}
+
+.Element-Job-component-items .Element-action-search .btn-search {
+    padding: 15px 20px;
+    background: var(--birudongker);
+    color: var(--text-btn);
+}
+
+.Element-search-jobs-component .Element-card-component {
+    padding: 30px 0;
+}
+
+.Element-Job-component-items .Element-card-component .row .Card-jobs-component .btn-aply-items{
+    background: var(--birudongker);
+    color: var(--text-btn);
+}  
+/* FAQ Component */
+.Element-Faq-component-items {
+    font-family: "Manrope", sans-serif;
+    padding: 113px 120px;
+}
+
+.Element-Faq-component-items .Element-title-heading h1 {
+    font-size: 64px;
+    color: var(--birudongker);
+}
+
+.Element-Faq-component-items .Element-title-heading span {
+    font-size: 20px;
+    color: var(--gray-paraf);
+}
+
+.Element-Faq-component-items .Element-accordion-items .accordion-button {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--gray);
+}
+
+/* Footer Component */
+.Footer-component-items {
+    padding: 90px 0;
+    font-family: "Manrope", sans-serif;
+    min-height: 404px;
+    background: var(--birudongker);
+}
+
+.Footer-component-items .row .Element-social-media {
+    padding: 93px 0;
+}
+
+.Footer-component-items .row .Element-social-media .icons-social-md {
+    padding: 15px;
+    margin: 0 10px;
+    background: var(--birudongker);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: var(--text-btn);
+    border-radius: 7px;
+}
+
+.Footer-component-items .row .Element-social-media .icons-social-md i {
+    font-size: 25px;
+}
+
+.Footer-component-items .row .nav-link {
+    color: var(--blue);
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+
+    /* Navbar Component */
+    .Element-navbar-component-items .container img {
+        width: 250px;
+    }
+
+    .Element-navbar-component-items .row .col-12 .navbar-nav .nav-link {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .Element-navbar-component-items .row .col-12 .navbar-nav .btn-items-w {
+        width: auto;
+        padding: 10px 15px;
+        background: var(--warning);
+        border-radius: 30px;
+    }
+    
+    .Element-navbar-component-items .row .col-12 .navbar-nav .btn-items-d {
+        width: auto;
+        background: var(--birudongker);
+        color: var(--text-btn);
+        border-radius: 30px;
+    }
+
+    /* Slider Component */
+    .Element-Hero-slider-component-items .carousel-caption {
+        bottom: 0.1rem;
+    }
+
+    .Element-Hero-slider-component-items .carousel-caption h1 {
+        font-family: "MuseoModerno", sans-serif;
+        font-size: 10px;
+        top:-80px;
+    }
+
+    .Element-Hero-slider-component-items .carousel-caption small {
+        font-family: "Manrope", sans-serif;
+        font-size: 16px;
+        background: var(--ungu);
+    }
+
+    .Element-Hero-slider-component-items .carousel-caption p {
+        display: none;
+    }
+
+    .Element-Hero-slider-component-items .carousel-caption .btn-caption-action {
+        padding: 5px 10px;
+        font-size: 12px;
+        border: 1px solid var(--warning);
+        font-family: "Manrope", sans-serif;
+        border-radius: 50px;
+        color: var(--warning);
+    }
+    .Element-Hero-slider-component-items .carousel-indicators{
+        display: none;
+    }
+    /* Text Views Component */
+    .Element-text-views-component {
+        display: flex;
+        height: 200px;
+        background: var(--birudongker);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Element-text-views-component .Element-text-heading h1 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+    .Element-text-views-component .Element-text-heading p {
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+    }
+    /* About Component */
+    .Element-About-component-items {
+        margin: 30px 0;
+        padding: 20px 20px;
+        font-family: "Manrope", sans-serif;
+    }
+    .Element-About-component-items .container .row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Element-About-component-items .container .row .col-7{
+        width: 100%;
+    }
+    .Element-About-component-items .container .row .col-7 h1{
+        font-size: 25px;
+    }
+    .Element-About-component-items .col .Element-image-about img {
+        display: grid;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    /* Content Component */
+    .Element-Content-component-items {
+        font-family: "Manrope", sans-serif;
+        padding: 56px 0;
+    }
+    .Element-Content-component-items .container .row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Element-Content-component-items .container .row .col-6 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /* Job Component */
+    .Element-Job-component-items {
+        padding: 0 20px;
+        font-family: "Manrope", sans-serif;
+    }
+    .Element-Job-component-items .container .row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Element-Job-component-items .container h1{
+        font-size: 32px;
+    }
+    .Element-Job-component-items .row .Element-search-jobs-component{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        margin: auto;
+    }
+    .Element-Job-component-items .row .Element-action-search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Element-Job-component-items .Element-card-component .float-end{
+        left: 90px;
+    }
+    .Element-Job-component-items .Element-card-component .row .Card-jobs-component .btn-aply-items{
+        background: var(--birudongker);
+        color: var(--text-btn);
+    }  
+    /* Faq Component */
+    .Element-Faq-component-items {
+        font-family: "Manrope", sans-serif;
+        padding: 20px 20px;
+    }
+
+    .Element-Faq-component-items .Element-title-heading h1 {
+        font-size: 32px;
+        color: var(--birudongker);
+    }
+
+    .Element-Faq-component-items .Element-title-heading span {
+        font-size: 12px;
+        color: var(--gray-paraf);
+    }
+
+    .Element-Faq-component-items .Element-accordion-items .accordion-button {
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--gray);
+    }
+
+    /* Footer Component */
+    .Footer-component-items .container .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px 15px;
+        font-family: "Manrope", sans-serif;
+        min-height: 250px;
+        background: var(--birudongker);
+    }
+
+    .Footer-component-items .container .row .col-4 img {
+        width: 350px;
+    }
+
+    .Footer-component-items .row .Element-social-media {
+        padding: 30px 0;
+    }
+}
